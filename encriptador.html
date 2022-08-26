@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="estilos.css" rel="stylesheet" />
+    <title>ENCRIPTADOR</title>
+</head>
+
+<body>
+    <header>
+        <img src="imagenes/logo_encriptador.png" alt="logo" class="logo" />
+        <h1 class="titulo">E n c r i p t a d o r</h1>
+    </header>
+    <main>
+        <section class="section_1">
+            <textarea class="input" id="caja_input" placeholder="Ingrese palabra"></textarea>
+            <p>* Solo letras minúsculas, sin acentos ni carácteres especiales</p>
+            <div>
+                <button id="btn_encriptar">Encriptar</button>
+                <button id="btn_desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section class="imagen_intermedia">
+            <img src="imagenes/java-encryption.png" alt="" />
+        </section>
+        <section class="section_2">
+            <textarea class="output" id="caja_output" placeholder="Ningún mensaje encontrado" disabled></textarea>
+            <div>
+                <button id="btn_copiar">Copiar</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            &copy Copyright 2022 - Desarrollado por
+            <a href="https://www.linkedin.com/in/sebastian-facundo-vera/" target="_blank">Sebastián Facundo Vera</a>
+
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
