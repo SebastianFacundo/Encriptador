@@ -74,8 +74,21 @@ color:#797D7E  ;
   height: 400px;
   resize: none;
   font-size: 20px;
+  background-image: url(imagenes/pngegg.png);
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.section_2 p{
+margin-top: -60px;
+margin-left: 40px;
+font-size:18px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+letter-spacing: 2px;
 
 }
+
 
 .section_2 button{
   font-size: 20px;
