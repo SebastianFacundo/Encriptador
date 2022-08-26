@@ -52,9 +52,11 @@ function desencriptar() {
 }
 
 function copiar() {
-  caja_output.select();
-  navigator.clipboard.writeText(caja_output.value);
-  caja_output.value = "Texto copiado";
+  if(caja_output.value!="Texto copiado"){
+    caja_output.select();
+    navigator.clipboard.writeText(caja_output.value);
+    caja_output.value = "Texto copiado";
+  }
 }
 
 function borrarLupa(){
