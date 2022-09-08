@@ -9,15 +9,20 @@ header {
   width: 100%;
 }
 
+.caja_logo {
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+}
+
 .logo {
-  width: 8%;
+  width: 40%;
   margin-top: 5px;
-  margin-left: 100px;
   display: inline-block;
 }
 
 .titulo {
-  width: 70%;
+  width: 60%;
   display: inline-block;
   text-align: center;
   vertical-align: top;
@@ -191,8 +196,11 @@ footer a:hover {
 }
 
 @media only screen and (max-width: 575px) {
+  .caja_logo {
+    width: 100%;
+  }
   .logo {
-    display: none;
+    width: 15%;
   }
 
   .titulo {
