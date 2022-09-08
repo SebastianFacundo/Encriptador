@@ -33,6 +33,7 @@ function encriptar() {
     borrarLupa();
     caja_output.value = texto;
     boton_copiar.style.display="inline-block";
+    boton_copiar.focus();
   }
 }
 

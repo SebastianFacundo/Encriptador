@@ -12,24 +12,25 @@
 <body>
     <header>
         <img src="imagenes/logo_encriptador.png" alt="logo" class="logo" />
-        <h1 class="titulo">E n c r i p t a d o r</h1>
+        <h1 class="titulo">encriptador</h1>
     </header>
     <main>
         <section class="section_1">
             <textarea class="input" id="caja_input" placeholder="Ingrese texto a encriptar..."></textarea>
-            <p>* Solo letras minúsculas, sin acentos ni carácteres especiales</p>
-            <div>
+            <p>* Solo letras minúsculas, sin acentos ni carácteres especiales.</p>
+            <div class="section_1_botones">
                 <button id="btn_encriptar">Encriptar</button>
                 <button id="btn_desencriptar">Desencriptar</button>
             </div>
         </section>
-        <section class="imagen_intermedia">
+        <div class="imagen">
             <img src="imagenes/java-encryption.png" alt="" />
-        </section>
+        </div>
+
         <section class="section_2">
             <textarea class="output" id="caja_output" disabled></textarea>
             <p id="mensaje_lupa">Ningún texto encontrado</p>
-            <div>
+            <div class="section_2_boton">
                 <button id="btn_copiar">Copiar</button>
             </div>
         </section>
