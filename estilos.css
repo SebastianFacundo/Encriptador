@@ -208,14 +208,19 @@ footer a:hover {
     display: block;
     text-align: center;
     letter-spacing: 2px;
+    margin-top: -5px;
   }
 
   .section_1 {
     margin: auto;
     width: 50%;
     padding-top: 0px;
+    margin-top: -10px;
   }
 
+  .input {
+    height: 200px;
+  }
   .section_1_botones {
     display: block;
     text-align: center;

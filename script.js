@@ -49,6 +49,7 @@ function desencriptar() {
    borrarLupa();
     caja_output.value = texto;
     boton_copiar.style.display="block";
+    boton_copiar.focus();
   }
 }
 
